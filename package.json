@@ -1,0 +1,20 @@
+{
+  "name": "vercel-api-data-handler",
+  "version": "1.0.0",
+  "description": "API for saving and loading JSON data (video, user, group, config)",
+  "main": "api/data.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/data.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^30.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
